@@ -1,0 +1,27 @@
+{
+  "name": "xcidic",
+  "version": "0.1.0",
+  "description": "This is application to manage schedule and price of restaurant's branch.  ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.9",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1",
+    "readdirp": "^3.6.0",
+    "sequelize": "^6.6.4",
+    "uuid": "^8.3.2"
+  }
+}
